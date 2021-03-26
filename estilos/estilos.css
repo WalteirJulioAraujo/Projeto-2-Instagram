@@ -229,7 +229,11 @@ body{
     height: 450px;
     background-color: Rgb(0,0,0,0);
     margin-left: 29px;
-    margin-top: 20px;  
+    margin-top: 20px;
+    position: fixed;
+    top: 92px;
+    margin-left: 645px
+
 }
 
 .sidebar-topo{

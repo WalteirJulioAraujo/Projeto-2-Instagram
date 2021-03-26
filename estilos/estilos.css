@@ -95,6 +95,7 @@ body{
 .capsula-caixa-stories{
     width: 614px;
     margin-bottom: 24px;
+    position: relative;
 }
 
 .caixa-stories{
@@ -107,6 +108,17 @@ body{
     box-sizing: border-box;
     overflow: hidden;
 
+}
+
+.icone-stories{
+    position: absolute;
+    top:46px;
+    right:9px;
+}
+
+.icone-stories ion-icon{
+    color: #fff;
+    font-size: 30px;
 }
 
 .caixa-user{
@@ -136,7 +148,7 @@ body{
 
 .caixa-post{
     width:100%;
-    height: 750px;
+    height: auto;
     margin-bottom: 60px;
     background-color: #ffffff;
     margin-bottom: 60px;
@@ -166,8 +178,6 @@ body{
 
 .caixa-video-post{
     width: 100%;
-    height: 612px;
-    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -216,14 +226,10 @@ body{
 }
 
 .sidebar{
-    width: 300px;
     height: 450px;
     background-color: Rgb(0,0,0,0);
     margin-left: 29px;
-    margin-top: 20px;
-    top: 90px;
-    right: 190px;
-    position: fixed;
+    margin-top: 20px;  
 }
 
 .sidebar-topo{
@@ -434,5 +440,9 @@ body{
 
     .capsula-base-mobile{
         display: initial;
+    }
+
+    .icone-stories{
+        display: none;
     }
 }

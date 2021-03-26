@@ -29,6 +29,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 19px;
 }
 
 .imagem-logo{
@@ -74,8 +75,8 @@ body{
 }
 
 .topo-mobile ion-icon{
-    margin-left: 22px;
-    margin-right: 22px;
+    margin-left: 18px;
+    margin-right: 18px;
 }
 .corpo-pagina{
     width:935px;
@@ -92,7 +93,7 @@ body{
 
 .capsula-caixa-stories{
     width: 614px;
-    
+    margin-bottom: 24px;
 }
 
 .caixa-stories{
@@ -135,10 +136,8 @@ body{
 .caixa-post{
     width:100%;
     height: 750px;
-    margin-top: 24px;
     margin-bottom: 60px;
     background-color: #ffffff;
-    margin-top: 24px;
     margin-bottom: 60px;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
@@ -164,6 +163,20 @@ body{
     height: 612px;
 }
 
+.caixa-video-post{
+    width: 100%;
+    height: 612px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-post{
+    width: 100%;
+    height: 100%;
+}
+
 .baixo-caixa-post-icones{
     width:100%;
     height: 40px;
@@ -178,7 +191,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 18px;
+    margin-left: 16px;
 }
 
 .baixo-caixa-post-curtir{
@@ -239,6 +252,9 @@ body{
     align-items: center;
 }
 
+.sidebar-seguir-right p {
+    font-weight: 500;
+}
 .sidebar-seguir-nome{
     margin-left: 12px;
 }
@@ -249,6 +265,25 @@ body{
     margin-bottom: 23px;
 }
 
+.capsula-base-mobile{
+    width:100%;
+    height: 54px;
+    background-color:#ffffff ;
+    border: 1px solid #dbdbdb;
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    display: none;
+}
+
+.base-mobile{
+    width: 90%;
+    height: 54px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* Imagens */
 
@@ -268,7 +303,7 @@ body{
 
 .icones{
     color: #000000;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 /* Fonte */
@@ -316,10 +351,16 @@ body{
     margin-right: 19px;
 }
 
+.espac19left{
+    margin-left: 19px;
+}
+
 .espac-user{
     margin-top:6px;
 }
-
+.espac16{
+    margin-right: 19px;
+}
 /* MEDIA */
 
 @media(max-width:935px){
@@ -338,7 +379,7 @@ body{
 
 @media(max-width:614px){
     body{
-        width: 100vw;
+        width: 100%;
     }
 
     .topo-desktop-completo{
@@ -372,5 +413,9 @@ body{
     .caixa-stories{
         background-color: Rgb(0,0,0,0) ;
         border: none;
+    }
+
+    .capsula-base-mobile{
+        display: initial;
     }
 }

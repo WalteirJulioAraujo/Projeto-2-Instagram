@@ -11,6 +11,7 @@ body{
     top: 0px;
     left: 0px;
     border-bottom: 1px solid #dbdbdb;
+    z-index: 1;
 }
 
 .topo-desktop{
@@ -83,6 +84,7 @@ body{
     margin: 0 auto;
     margin-top: 88px;
     display: flex;
+    position: relative;
 }
 
 .corpo-pagina-left{
@@ -220,6 +222,9 @@ body{
     background-color: Rgb(0,0,0,0);
     margin-left: 29px;
     margin-top: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .sidebar-topo{

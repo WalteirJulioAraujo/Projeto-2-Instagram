@@ -84,7 +84,6 @@ body{
     margin: 0 auto;
     margin-top: 88px;
     display: flex;
-    position: relative;
 }
 
 .corpo-pagina-left{
@@ -222,9 +221,9 @@ body{
     background-color: Rgb(0,0,0,0);
     margin-left: 29px;
     margin-top: 20px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 90px;
+    right: 190px;
+    position: fixed;
 }
 
 .sidebar-topo{
@@ -239,6 +238,11 @@ body{
 .sidebar-meio{
     margin-top: 18px;
 }
+
+.sidebar-meio p {
+    font-weight: 500;
+}
+
 .sidebar-sugestoes{
     display: flex;
     justify-content: space-between;
@@ -312,6 +316,14 @@ body{
 }
 
 /* Fonte */
+.w500{
+    font-weight: 500;;
+}
+
+.w300{
+    font-weight: 300;
+}
+
 .bd{
     font-weight: bold;
 }

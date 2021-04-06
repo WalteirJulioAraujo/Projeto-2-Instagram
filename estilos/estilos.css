@@ -132,7 +132,7 @@ body{
 .user-stories{
     width: 66px;
     height: 66px;
-    background: url(/Vídeos-Fotos/stories_background.JPG);
+    background: url(.../Vídeos-Fotos/stories_background.JPG);
     background-size: cover;
     border-radius: 50%;
     display: flex;

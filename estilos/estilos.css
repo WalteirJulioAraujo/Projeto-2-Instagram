@@ -132,7 +132,7 @@ body{
 .user-stories{
     width: 66px;
     height: 66px;
-    background: url(https://github.com/WalteirJulioAraujo/Projeto-2-Instagram/blob/main/V%C3%ADdeos-Fotos/stories_background.jpg);
+    background: url(/Vídeos-Fotos/stories_background.JPG);
     background-size: cover;
     border-radius: 50%;
     display: flex;
